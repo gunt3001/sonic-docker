@@ -12,7 +12,7 @@ To use the Docker image, you can run the following command:
 docker run --rm -it \
     -v /path/to/input:/input \
     -v /path/to/output:/output \
-    gunt3001/sonic-docker \
+    ghcr.io/gunt3001/sonic-docker \
     -s 2.0 \
     /input/input.wav \
     /output/output.wav
